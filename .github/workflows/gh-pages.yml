@@ -6,7 +6,7 @@ name: docs-deploy
 on:
   push:
     branches:
-      - 0.0.4
+      - main
 jobs:
   docs:
     runs-on: ubuntu-latest
