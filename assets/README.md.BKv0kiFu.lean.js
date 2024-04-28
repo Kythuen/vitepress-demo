@@ -1,0 +1,1 @@
+import{_ as e,c as t,o,a4 as i}from"./chunks/framework.D5Itp3bc.js";const _=JSON.parse('{"title":"vitepress-demo","description":"","frontmatter":{},"headers":[],"relativePath":"README.md","filePath":"README.md"}'),r={name:"README.md"},a=i("",11),s=[a];function n(d,u,l,c,h,p){return o(),t("div",null,s)}const f=e(r,[["render",n]]);export{_ as __pageData,f as default};
