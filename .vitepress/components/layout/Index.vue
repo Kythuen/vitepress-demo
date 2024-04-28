@@ -1,19 +1,17 @@
 <template>
-  <ClientOnly>
-    <Suspense>
-      <div class="layout">
-        <LayoutHeader />
-        <div class="layout-wrapper vp-doc">
-          <div class="layout-content">
-            <NotFound v-if="pageData.isNotFound" />
-            <HomePage v-else-if="frontmatter.page === 'Home'" />
-            <Content v-else />
-          </div>
+  <Suspense>
+    <div class="layout">
+      <LayoutHeader />
+      <div class="layout-wrapper vp-doc">
+        <div class="layout-content">
+          <NotFound v-if="pageData.isNotFound" />
+          <HomePage v-else-if="frontmatter.page === 'Home'" />
+          <Content v-else />
         </div>
-        <LayoutFooter />
       </div>
-    </Suspense>
-  </ClientOnly>
+      <LayoutFooter />
+    </div>
+  </Suspense>
 </template>
 
 <script setup lang="ts">

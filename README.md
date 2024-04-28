@@ -16,3 +16,6 @@ This issue is indeed quite important, because as for a document website, we ofte
 I have been troubled for days. I guess the reason is used custom layout, because there is no such issue when using the default theme. I trying to find relative issues and office documents exist but have no results. 
 
 Could you please take some time to help take a look.
+
+## Resolution
+https://github.com/vuejs/vitepress/issues/3831
