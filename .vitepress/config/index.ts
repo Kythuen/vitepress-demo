@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  base: '/vitepress-demo/',
+  base: '/ephemeras/vitepress-demo/',
   title: 'vitepress-demo',
   description: 'A VitePress Site'
 })
