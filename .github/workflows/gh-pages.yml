@@ -38,6 +38,6 @@ jobs:
         with:
           token: ${{ secrets.ACTIONS_TOKEN }}
           branch: gh-pages
-          folder: docs/.vitepress/dist
+          folder: .vitepress/dist
           single-commit: true
           clean: true
